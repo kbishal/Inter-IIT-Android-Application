@@ -1,42 +1,82 @@
 [
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contacts.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_contacts.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contacts.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_contacts.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_results.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_results.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_standings.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_standings.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_standings.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_standings.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_points.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_points.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_teams.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_teams.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_splash_screen.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_splash_screen.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_home.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_home.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_splash_screen.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_splash_screen.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_splash_screen.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_splash_screen.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_points.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_points.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_points.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_points.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\drawer.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_standings.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_standings.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sports.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_sports.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_results.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_results.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_results.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_results.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_teams.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_teams.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\drawer.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_teams.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_teams.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_contacts.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_contacts.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sports.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_sports.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_sports.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_sports.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_home.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/drawer.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/menu/drawer.xml"
     }
 ]

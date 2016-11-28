@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\InterIIT2016\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\InterIIT2016\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/siddharth/inter/InterIIT2016/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/siddharth/inter/InterIIT2016/app/src/debug/jniLibs"/></dataSet></merger>

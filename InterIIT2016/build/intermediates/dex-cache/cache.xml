@@ -2,277 +2,284 @@
 <items version="2" >
 
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a6ab4d21a981b6f1b14c610172f7df020c062412.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_c2f47142858e6213e5b14c23e03fff91b60a75a7.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.2.0_cc2fda1d758d9a65dfe9b870d2813819a7e58857.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0_5df9cc25fcf2b30bee4976dcb8ead9e1bcd59616.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_5730051a4bfb1f513d3e8d6652ea643bdf8b6def.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_4e0b7e06a6c37bf1c6bf610e0e8cb9eaefff464b.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_9b4aa325057bf2e2f9e6c8f757269f2f5330602d.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="897400f08e8b3f5e290a5da388973f7cfe700965">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-23.2.0_488aaf095fb49826fbb8d34f0e59e7ee49d2d10d.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_99c781904ce177786ee7f726edf8494887d1a312.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_d69acc9b42c1a3a8688124370e235582c2fd17d5.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.afollestad.material-dialogs-core-0.9.1.0_1bdec623f206d0fb046466462b9dd287044623b0.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\gson-2.4_9297538838a2e0b25d164b032b4a7c86dbfd233f.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_4b2ddb53e7ffb7262fbb26985f94b33b1b23cf46.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\okio-1.4.0_b14f300d13ac9db4baadd0beeb02885a1784bfee.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_319f97f9406aa4620a711b85d6967add2cd8d025.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_372b1da14977d318633db12018688f6bfd173e59.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_a95965af460aa8d4b5f4dde3dd255f68ab11d06a.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_9204289a0792052200075884141fc33c0ecbcde2.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_16a4f75f29c08423a88d6b91066c0ba151c750b7.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_6ffe75410b42d4495efa5d3dfb0f869293d32e2c.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_40b750bf68dea15510e68d3cd211c2dc34180f2a.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_755e5363e9076761e73dce25091db9dd17ce80e8.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.3.0_73dc5e27f8046237e0fca182664b567a0b447aa6.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_b0a38ccd85305fd1ffaa87d310675aa7863ca67f.jar" />
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_2a2a48c63736e01f3ca4adfc1f5a1307f62e0b45.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_4801a6eee989b63a1edb54fa1e2b5bcfc9b68d2a.jar" />
+        sha1="897400f08e8b3f5e290a5da388973f7cfe700965">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.2.0_1b22c0fd83a638bc9c9d39a1ff893cd4cdf9d47a.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_ada7649ad45367eb3ffc96a8de29c5c907075a2a.jar" />
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_531cd3fbddb4da1fef540d0e174cbfc60150a091.jar" />
     </item>
     <item
-        jar="C:\Users\GUNDA ABHISHEK\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_64f84724ec978fbec0634d2de75586592e1f407b.jar" />
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_cb3ad36f5f156d4300beada8e51677a6ae14eb08.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_fd52d07c7eed777ec0a3384b3fdf5e3beab3f273.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_b8b30284bd54e6772b7e3c1ff17e6d85592c1eda.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\io.smooch\ui\3.2.2\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="d410b42c15a0f160a3408cd13ae130e8bd45aa65">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\io.smooch-ui-3.2.2_38923187090d5ddf7c58530c0c6b9c4542a805d5.jar" />
-    </item>
-    <item
-        jar="C:\Users\GUNDA ABHISHEK\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_9eab6bd5f62b65f2ad04491f8bd8da79098b3979.jar" />
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_84395aaad512859c1cb57729d8dcecb441732091.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_81e6aaadece8afee5c49ad14e83bb8badb243de9.jar" />
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_a3eb8cb931743b2ab3df635bb34b0625f9fcc3f7.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7b1f2d4d61d1dd5ae5d0654180c055a7367386d9.jar" />
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_5a87d2a3cadb929a41582df3a53b5bc8b17a53f0.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.davemorrissey.labs\subsampling-scale-image-view\3.5.0\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/io.smooch/ui/3.2.2/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_95f86e04848de8fc37bd3fa4019e96d47e60d880.jar" />
+        sha1="d410b42c15a0f160a3408cd13ae130e8bd45aa65">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/io.smooch-ui-3.2.2_fde0a4a25ed69cb1eeaa11d5b5ca681f6bbc9dfb.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.github.lawloretienne\imagegallery\0.0.15\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="317aae484ddf1429dfb0be832f0a133e906a2f9a">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.github.lawloretienne-imagegallery-0.0.15_d586f6d3d7797142bc5e2de37fe97292a3890de6.jar" />
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_a15d23e564fce246add118401ff7eb87d3b7f69b.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_81d56428bbc4036c215269b30291c6564695b12d.jar" />
-    </item>
-    <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.4.3\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.4.3/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="a06b0579dbe59192ef460e3de04657720925d05b">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.github.amlcurran.showcaseview-library-5.4.3_0199385b821a3c99d683b4de158485a915d286b3.jar" />
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.github.amlcurran.showcaseview-library-5.4.3_442036dd85a87e4ca54cf19894cf6412e582f2e2.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\io.smooch\core\3.2.2\jars\classes.jar"
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.afollestad.material-dialogs-core-0.9.1.0_fd0ddb902594749e1ba7d6bf4c880b56e0796dee.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_b5f33b5ebcd82b6db6e0ef4b703e3e4a06e5dca9.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.github.lawloretienne/imagegallery/0.0.15/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="317aae484ddf1429dfb0be832f0a133e906a2f9a">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.github.lawloretienne-imagegallery-0.0.15_f6b4c2b96455dc47bcf26e2f3b43debe3319fa5b.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_b64fc3fdf9019d1be2bc76d6d749a108c324c93e.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/io.smooch/core/3.2.2/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="e77209041db660852eeec165a316af5bfda133b1">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\io.smooch-core-3.2.2_65239930d074f523953fefdcb550be7c2a710d00.jar" />
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/io.smooch-core-3.2.2_352d5aab07a8e629f99dfeb8e99279fe750bed81.jar" />
     </item>
     <item
-        jar="D:\InterIIT2016\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_d766b49a50683da5c29c38384946fa25851aa887.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_680e29ed196e4804cd8ab70a3192ccff7ef25f81.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3858c0d7a570fb65d40c70b26bc11f43e241b8bb.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_2b5a6bf18f0835740851ab85d733ae37abca4348.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_53cd60bec736e1d3f7ee8ca321f6b167a60b87d3.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/gson-2.4_24d372cc29bf6531d0d758437b48492522075f11.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.3.0_62e6599ac3808fe388856a77a95847e87b47aaef.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_1951d8000976dce4169808e6528a22de1e275e1d.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_b37423fa305fcd149e369d5b2b0655c37007010b.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_97fe9b897c3c6d079bf2b06fb562b3bc3b1c074f.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_a62766de1234efbc56a638ed57a108acd59127d4.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
-        <dex dex="D:\InterIIT2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.0_d240aa1380bce489eb43b1ed90f9932279fcb91f.jar" />
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-v13-25.0.0_5bc0bbf9345dc15b495074c12fbeac2a5c2076ca.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3b20ba5db0265c337514ea29ca7e592b045e7155.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a74db7ae52658119461815d9ecaaee07cb408779.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_a777dcacdd185f3e95b480b5db51698783e3c224.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.0_2fb29f3ddbbdf060ad3a99200d285cfa3fb1ab35.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_8cdfc03e2d5e7f723682ad84b5fce9d09d836f84.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_0b27a05dae73f996ac3cbc96a7fa61b048d747bf.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_ccef36116a534fd137ec8247558aeb874ca0c3f6.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_1f3a96c57fab695d1d6d2465613b38688232df42.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_be5e72a9a4fac90e948e9351b6f31ddf7fd0724b.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_64e698f777e2a2ddfd5cb9a120f2b3ebe6a0fb4a.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_4e1525401a093f3d994d896f247d04030715c264.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_f4754ea31b308bd0821363c130935b8104ba8756.jar" />
+    </item>
+    <item
+        jar="/home/siddharth/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/home/siddharth/inter/InterIIT2016/app/build/intermediates/pre-dexed/debug/okio-1.4.0_57281b5977f010e6715778049700ca1f0b01b0d4.jar" />
     </item>
 
 </items>
