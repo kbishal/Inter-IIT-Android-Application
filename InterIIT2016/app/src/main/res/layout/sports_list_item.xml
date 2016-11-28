@@ -1,27 +1,15 @@
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/cardlist_item"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:foreground="?android:attr/selectableItemBackground"
-    android:orientation="vertical"
-    card_view:cardBackgroundColor="@color/white"
-    card_view:cardElevation="@dimen/cardview_default_elevation">
-    <RelativeLayout
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:background="@drawable/india"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:id="@+id/rel1">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:id="@+id/cllg_logo" />
         </RelativeLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -34,5 +22,6 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
                 android:layout_alignBottom="@+id/rel1"/>
-    </RelativeLayout>
-</android.support.v7.widget.CardView>
+
+    </LinearLayout>
+

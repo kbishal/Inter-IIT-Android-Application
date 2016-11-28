@@ -3,32 +3,28 @@ package com.abhishek.interiit2016.activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.GridListAdapter;
-import com.abhishek.interiit2016.gcmservices.GCMRegistrationIntentService;
-import com.abhishek.interiit2016.loader.PandaLoadingView;
 import com.abhishek.interiit2016.model.ItemObject;
 import com.abhishek.interiit2016.utils.APIConstants;
 import com.github.amlcurran.showcaseview.ShowcaseView;
 import com.github.amlcurran.showcaseview.targets.ViewTarget;
-import com.google.android.gms.common.ConnectionResult;
-//import com.google.android.gms.common.;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import io.smooch.core.User;
 import io.smooch.ui.ConversationActivity;
+
+//import com.google.android.gms.common.;
 
 //import io.smooch.core.User;
 //import io.smooch.ui.ConversationActivity;
@@ -126,17 +122,17 @@ public class MainActivity extends NavDrawerActivity {
     private List<ItemObject> getAllItemList(){
 
         List<ItemObject> allItems = new ArrayList<>();
-        allItems.add(new ItemObject("Badminton", R.drawable.four));
-        allItems.add(new ItemObject("Cricket", R.drawable.five));
-        allItems.add(new ItemObject("Aquatics", R.drawable.four));
-        allItems.add(new ItemObject("BasketBall", R.drawable.four));
+
+        allItems.add(new ItemObject("Badminton", R.drawable.five));
+        allItems.add(new ItemObject("Basketball", R.drawable.four));
+        allItems.add(new ItemObject("Cricket", R.drawable.four));
         allItems.add(new ItemObject("Football", R.drawable.five));
-        allItems.add(new ItemObject("TableTennis", R.drawable.four));
-        allItems.add(new ItemObject("Coco", R.drawable.five));
-        allItems.add(new ItemObject("VolleyBall", R.drawable.eight));
-        allItems.add(new ItemObject("game1", R.drawable.four));
-        allItems.add(new ItemObject("game2", R.drawable.eight));
-        allItems.add(new ItemObject("game3", R.drawable.eight));
+        allItems.add(new ItemObject("Hockey", R.drawable.four));
+        allItems.add(new ItemObject("Squash", R.drawable.five));
+        allItems.add(new ItemObject("Table Tennis", R.drawable.eight));
+        allItems.add(new ItemObject("Tennis", R.drawable.four));
+        allItems.add(new ItemObject("Volleyball", R.drawable.eight));
+        allItems.add(new ItemObject("Weightlifting", R.drawable.eight));
        /* allItems.add(new ItemObject("Germany", R.drawable.four));
         allItems.add(new ItemObject("Sweden", R.drawable.five));
         allItems.add(new ItemObject("United Kingdom", R.drawable.four));

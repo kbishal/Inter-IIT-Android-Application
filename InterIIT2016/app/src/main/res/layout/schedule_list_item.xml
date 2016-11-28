@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:paddingTop="15dp"
-                    android:textSize="15sp"
+                    android:textSize="17sp"
                     android:layout_centerVertical="true"
                     android:paddingBottom="15dp"
                     android:text="7:00 PM"
@@ -78,7 +78,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MATCH 09,GROUP 1"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="MATCH 09 - POOL 1"
                     android:textColor="@color/white"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
@@ -94,7 +96,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="24dp"
+                    android:paddingLeft="20dp"
                     android:paddingTop="10dp"
                     android:text="KANPUR"
                     android:id="@+id/team1"
@@ -104,19 +106,7 @@
                     android:textColor="#333"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="25dp"
-                    android:paddingTop="10dp"
-                    android:text="VS"
-                    android:textStyle="bold"
-                    android:paddingBottom="7dp"
-                    android:textSize="25sp"
-                    android:textColor="@color/primary_500"
-                    android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/team1"
-                    android:layout_toEndOf="@+id/team1" />
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -126,7 +116,7 @@
                     android:textSize="25sp"
                     android:paddingTop="10dp"
                     android:paddingBottom="7dp"
-                    android:paddingRight="24dp"
+                    android:paddingRight="20dp"
                     android:textColor="#333"
                     android:id="@+id/team2"
                     android:layout_alignParentTop="true"

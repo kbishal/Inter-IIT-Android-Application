@@ -74,10 +74,6 @@
             android:label="@string/title_activity_results" >
         </activity>
         <activity
-            android:name=".activities.Standings"
-            android:label="@string/title_activity_standings" >
-        </activity>
-        <activity
             android:name=".activities.NavDrawerActivity"
             android:label="@string/title_activity_standings" >
         </activity>

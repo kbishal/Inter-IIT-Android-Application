@@ -17,7 +17,6 @@
 
 package com.abhishek.interiit2016.model;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
@@ -29,7 +28,7 @@ public class CardModel {
 	private Drawable cardImageDrawable;
 	private Drawable cardLikeImageDrawable;
 	private Drawable cardDislikeImageDrawable;
-
+	private String imageurl,number,fburl;
     private OnCardDismissedListener mOnCardDismissedListener = null;
 
     private OnClickListener mOnClickListener = null;
@@ -51,6 +50,38 @@ public class CardModel {
 		this.title = title;
 		this.description = description;
 		this.cardImageDrawable = cardImage;
+	}
+
+	public String getImageurl() {
+		return imageurl;
+	}
+
+	public void setImageurl(String imageurl) {
+		this.imageurl = imageurl;
+	}
+
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+	public String getFburl() {
+		return fburl;
+	}
+
+	public void setFburl(String fburl) {
+		this.fburl = fburl;
+	}
+
+	public CardModel(String title, String description, String imageurl, String number, String fburl) {
+		this.title = title;
+		this.description = description;
+		this.imageurl = imageurl;
+		this.number=number;
+		this.fburl=fburl;
 	}
 
 	public CardModel(String title, String description, Bitmap cardImage) {

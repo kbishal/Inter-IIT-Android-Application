@@ -8,14 +8,12 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.graphics.Palette;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -23,10 +21,8 @@ import android.widget.RelativeLayout;
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.activities.ResultsActivity;
 import com.abhishek.interiit2016.activities.Sports;
-import com.abhishek.interiit2016.activities.Standings;
 import com.abhishek.interiit2016.activities.Teams;
 import com.abhishek.interiit2016.utils.APIConstants;
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.etiennelawlor.imagegallery.library.activities.FullScreenImageGalleryActivity;
 import com.etiennelawlor.imagegallery.library.activities.ImageGalleryActivity;
 import com.etiennelawlor.imagegallery.library.adapters.FullScreenImageGalleryAdapter;
@@ -92,13 +88,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
                 startActivity(intent);
             }
         });
-        standings.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =new Intent(getActivity(), Standings.class);
-                startActivity(intent);
-            }
-        });
+
         teams.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

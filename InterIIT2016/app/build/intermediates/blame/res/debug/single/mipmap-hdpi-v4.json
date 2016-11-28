@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\launcher.png",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\mipmap-hdpi\\launcher.png"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
         "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },

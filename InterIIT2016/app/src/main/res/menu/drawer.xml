@@ -9,7 +9,7 @@
         <item
             android:id="@+id/navigation_item_2"
             android:icon="@drawable/home"
-            android:title="Results" />
+            android:title="Points" />
       <!--
         <item
             android:id="@+id/navigation_item_3"
@@ -17,17 +17,19 @@
             android:title="@string/hamburger_item3" />
             -->
         <item
-            android:id="@+id/navigation_item_3"
+            android:id="@+id/navigation_item_5"
             android:icon="@drawable/home"
-            android:title="Gallery" />
+            android:title="Support" />
         <item
             android:id="@+id/navigation_item_4"
             android:icon="@drawable/home"
             android:title="Contacts" />
+
         <item
-            android:id="@+id/navigation_item_5"
+            android:id="@+id/navigation_item_3"
             android:icon="@drawable/home"
-            android:title="About us" />
+            android:title="Gallery" />
+
     </group>
 
 

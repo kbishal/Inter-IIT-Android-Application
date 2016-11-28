@@ -2,13 +2,12 @@ package com.abhishek.interiit2016.activities;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
-import android.widget.Adapter;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.model.CardModel;
@@ -33,37 +32,24 @@ public class Contacts extends AppCompatActivity {
 
         SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this);
 
-        adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-        adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-        adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-        adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-
-        CardModel cardModel = new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1));
+        adapter.add(new CardModel("Prateek Jain", "Head Show Management","http://interiit.com/images/contact/prateek.jpg","",""));
+        adapter.add(new CardModel("Pushpendra", "Head Show Management","http://interiit.com/images/contact/pushp.jpg","",""));
+        adapter.add(new CardModel("Bibek Kumar", "Head Media & Publicity","http://interiit.com/images/contact/bibek.jpg","",""));
+        adapter.add(new CardModel("Tarun Rathore", "Head Media & Publicity","http://interiit.com/images/contact/tarun.jpg","",""));
+        adapter.add(new CardModel("Lisha Sinha", "Head Design","http://interiit.com/images/contact/lisha.jpg","",""));
+        adapter.add(new CardModel("Zishan Zainul", "Head Design","http://interiit.com/images/contact/zishan.jpg","",""));
+        adapter.add(new CardModel("Deependra", "Head Design","http://interiit.com/images/contact/deep.jpg","",""));
+        adapter.add(new CardModel("Rahul Wadhwani", "Head Marketing","http://interiit.com/images/contact/rahul.jpg","",""));
+        adapter.add(new CardModel("Gunda Abhishek", "Head Web & Android","http://interiit.com/images/contact/a.jpg","",""));
+        adapter.add(new CardModel("Subham Goyal", "Head Web & Android","http://interiit.com/images/contact/subham.jpg","",""));
+        adapter.add(new CardModel("Kshitiz Yadav", "Head Public Relation","http://interiit.com/images/contact/kshitij.jpg","",""));
+        adapter.add(new CardModel("Mayang Garg", "Head Hospitality","http://interiit.com/images/contact/mayank.jpg","",""));
+        adapter.add(new CardModel("Nitin Sangwan", "Head Hospitality","http://interiit.com/images/contact/nitin.jpg","",""));
+        adapter.add(new CardModel("Gaurav Singh", "Head Events","http://interiit.com/images/contact/gaurav.jpg","",""));
+        adapter.add(new CardModel("Priya Yadav", "Head Events","http://interiit.com/images/contact/priya.jpg","",""));
+        adapter.add(new CardModel("Samyak Jain", "Overall Coordinator","http://interiit.com/images/contact/samyak.jpg","",""));
+        adapter.add(new CardModel("Nicku Nitish", "Overall Coordinator","http://interiit.com/images/contact/nicku.jpg","",""));
+        CardModel cardModel = new CardModel("Robinson", "Organizing Head","http://interiit.com/images/contact/guria.jpg","","");
         cardModel.setOnClickListener(new CardModel.OnClickListener() {
             @Override
             public void OnClickListener() {

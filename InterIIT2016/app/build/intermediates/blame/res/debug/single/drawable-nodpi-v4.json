@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\checkbox_blank_circle.png",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\drawable-nodpi\\checkbox_blank_circle.png"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/checkbox_blank_circle_outline.png",
         "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable-nodpi/checkbox_blank_circle_outline.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/checkbox_blank_circle.png",
         "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable-nodpi/checkbox_blank_circle.png"
-    },
-    {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\checkbox_blank_circle_outline.png",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\InterIIT2016\\app\\src\\main\\res\\drawable-nodpi\\checkbox_blank_circle_outline.png"
     }
 ]

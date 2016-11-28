@@ -110,6 +110,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:id="@+id/standings"
                     android:layout_below="@id/fixtures"
                     android:background="@color/primary_500"
@@ -145,6 +146,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/teams"
+                    android:visibility="gone"
                     android:layout_below="@id/standings"
                     android:background="@color/primary_500"
                     android:layout_marginBottom="10dp">
