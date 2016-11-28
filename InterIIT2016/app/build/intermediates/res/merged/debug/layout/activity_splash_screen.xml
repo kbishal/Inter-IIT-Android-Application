@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.SplashScreen" >
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.01dp"
+            android:layout_weight="2"
+            android:background="@drawable/splashscreenbreaction"
+            android:text="GO TO APP"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/splashLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomLayout"
+        android:layout_alignParentTop="true" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/swipe_images_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.30"
+            android:src="@drawable/layer" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcomeToTownscript"
+                android:textColor="#FFF"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/newWayToDiscover"
+                android:textColor="#FFF"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/concertTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/concerts"
+                    android:textColor="#FFF"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1.5dip"
+                    android:layout_alignLeft="@id/concertTV"
+                    android:layout_alignRight="@id/concertTV"
+                    android:layout_below="@id/concertTV"
+                    android:layout_marginTop="8dp"
+                    android:background="#ffffff" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dip"
+                    android:layout_alignLeft="@id/concertTV"
+                    android:layout_alignRight="@id/concertTV"
+                    android:layout_below="@id/concertTV"
+                    android:layout_marginTop="14dp"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/FirstCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkbox_blank_circle" />
+
+            <ImageView
+                android:id="@+id/SecondCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:src="@drawable/checkbox_blank_circle_outline" />
+
+            <ImageView
+                android:id="@+id/ThirdCircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:src="@drawable/checkbox_blank_circle_outline" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

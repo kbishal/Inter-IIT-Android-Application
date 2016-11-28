@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhishek.interiit2016"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.abhishek.interiit2016.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.abhishek.interiit2016.permission.C2D_MESSAGE" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.abhishek.interiit2016.activities.interIIT"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.abhishek.interiit2016" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.abhishek.interiit2016.gcmservices.GCMPushReceiverService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.abhishek.interiit2016.gcmservices.GCMRegistrationIntentService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.activities.ImageGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" />
+        <activity
+            android:name="com.abhishek.interiit2016.activities.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.Teams"
+            android:label="@string/title_activity_teams" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.ResultsActivity"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.Standings"
+            android:label="@string/title_activity_standings" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.NavDrawerActivity"
+            android:label="@string/title_activity_standings" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.Points"
+            android:label="@string/title_activity_points" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.Sports"
+            android:label="@string/title_activity_sports" >
+        </activity>
+        <activity
+            android:name="com.abhishek.interiit2016.activities.Contacts"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.activities.FullScreenImageGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.abhishek.interiit2016.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="io.smooch.core.service.SmoochService"
+            android:exported="false" />
+        <service
+            android:name="io.smooch.core.GcmInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="io.smooch.core.GcmRegistrationIntentService"
+            android:exported="false" />
+        <service
+            android:name="io.smooch.core.GcmService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="io.smooch.ui.ConversationActivity"
+            android:label="@string/Smooch_activityConversation"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Smooch" />
+        <activity
+            android:name="io.smooch.ui.widget.ImageActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar.FullScreen" >
+        </activity>
+
+        <receiver
+            android:name="io.smooch.ui.notification.NotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.smooch.NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

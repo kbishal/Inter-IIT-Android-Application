@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_txv"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:textColor="#f6f6f6"
+    android:textSize="14sp"
+    android:gravity="center"
+    android:background="@drawable/rectangle_bg">
+</TextView>

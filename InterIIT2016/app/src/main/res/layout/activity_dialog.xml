@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_height="wrap_content"
+        android:layout_width="90dip"
+        android:text="List"
+        android:background="#00bfff"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:id="@+id/btnCheckBox"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CheckBox"
+        android:background="#00bfff"
+        android:textColor="#fff"
+        android:layout_marginTop="12dp"
+        android:layout_alignBaseline="@+id/btnRadio"
+        android:layout_alignBottom="@+id/btnRadio"
+        android:layout_alignLeft="@+id/btnRadio"
+        android:layout_alignStart="@+id/btnRadio" />
+
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="RadioButton"
+        android:background="#00bfff"
+        android:layout_marginTop="12dp"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
