@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.SimpleRecyclerAdapter;
@@ -125,6 +126,8 @@ public class ResultsActivity extends AppCompatActivity {
         };
         if (Utils.isInterNetUp(ResultsActivity.this)) {
             dataService.getresults(sharedPreferences.getString("Sport",""),gender,"all", callback);
+        } else {
+            Utils.showCustomToast(ResultsActivity.this, "Please check your internet connection or try again later", Toast.LENGTH_LONG);
         }
     }
 

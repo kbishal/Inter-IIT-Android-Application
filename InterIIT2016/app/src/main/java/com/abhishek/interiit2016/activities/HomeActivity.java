@@ -27,6 +27,7 @@ import android.widget.FrameLayout;
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.SimpleRecyclerAdapter;
 import com.abhishek.interiit2016.fragments.HomeFragment;
+import com.abhishek.interiit2016.fragments.ResultFragment;
 import com.abhishek.interiit2016.fragments.ScheduleFragment;
 import com.abhishek.interiit2016.model.VersionModel;
 import com.abhishek.interiit2016.utils.APIConstants;
@@ -73,7 +74,7 @@ public class HomeActivity extends NavDrawerActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new HomeFragment(getResources().getDrawable(R.drawable.splash_img)), "HOME");
         adapter.addFrag(new ScheduleFragment(getResources().getDrawable(R.drawable.p8)), "SCHEDULE");
-        adapter.addFrag(new ScheduleFragment(getResources().getDrawable(R.drawable.p8)), "TODAYS");
+        adapter.addFrag(new ResultFragment(getResources().getDrawable(R.drawable.p8)), "TODAYS");
         viewPager.setAdapter(adapter);
     }
 

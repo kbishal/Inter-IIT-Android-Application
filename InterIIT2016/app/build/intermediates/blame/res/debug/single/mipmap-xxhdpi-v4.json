@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/launcher.png",
-        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/mipmap-xxhdpi/launcher.png"
+        "merged": "D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
-        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\launcher.png",
+        "source": "D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\src\\main\\res\\mipmap-xxhdpi\\launcher.png"
+    },
+    {
+        "merged": "D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\launcher.png",
+        "source": "D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\mipmap-xxhdpi\\launcher.png"
+    },
+    {
+        "merged": "D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

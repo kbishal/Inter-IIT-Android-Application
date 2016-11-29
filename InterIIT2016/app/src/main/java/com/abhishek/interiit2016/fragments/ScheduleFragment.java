@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.SimpleRecyclerAdapter;
@@ -148,6 +149,9 @@ public class ScheduleFragment extends Fragment{
         };
         if (Utils.isInterNetUp(getContext())){
             dataService.geteventschedule(sharedPreferences.getString("Sport",""),gender,"all", callback);
+        }
+        else {
+            Utils.showCustomToast(getActivity(), "Please check your internet connection or try again later", Toast.LENGTH_LONG);
         }
     }
 

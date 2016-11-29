@@ -16,6 +16,7 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.abhishek.interiit2016.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <!-- Permissions required for GCM -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -98,10 +99,6 @@
         <activity
             android:name="com.abhishek.interiit2016.activities.Points"
             android:label="@string/title_activity_points" >
-        </activity>
-        <activity
-            android:name="com.abhishek.interiit2016.activities.Sports"
-            android:label="@string/title_activity_sports" >
         </activity>
         <activity
             android:name="com.abhishek.interiit2016.activities.Contacts"

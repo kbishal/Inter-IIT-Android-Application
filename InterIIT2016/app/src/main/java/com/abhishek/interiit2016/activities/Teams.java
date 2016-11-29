@@ -40,9 +40,7 @@ public class Teams extends AppCompatActivity {
         adapter.SetOnItemClickListener(new StandingsAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-                Intent intent =new Intent(Teams.this,Sports.class);
-                intent.putExtra("CollegeName",itemObjects.get(position).getName());
-                startActivity(intent);
+
             }
         });
 

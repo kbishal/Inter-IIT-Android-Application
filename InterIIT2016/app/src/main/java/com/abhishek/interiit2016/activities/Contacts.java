@@ -8,9 +8,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
+import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.model.CardModel;
+import com.abhishek.interiit2016.utils.Utils;
 import com.abhishek.interiit2016.view.CardContainer;
 import com.abhishek.interiit2016.view.SimpleCardStackAdapter;
 
@@ -27,10 +29,14 @@ public class Contacts extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_contacts);
         mCardContainer = (CardContainer) findViewById(R.id.layoutview);
-
-        Resources r = getResources();
-
+       if(!Utils.isInterNetUp(Contacts.this)){
+            Utils.showCustomToast(Contacts.this, "Please check your internet connection or try again later", Toast.LENGTH_LONG);
+        }
         SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this);
+
+        //-------------------------------------------------------------------------------------------------------------------------
+// SIDDHARTH SAMPLE FB URL AND CONCT  SHOWN IN MY LIST ITEM
+        // DO NOT ADD +91 FOR NUMBER -----------------------------------------------------------------------------------------------
 
         adapter.add(new CardModel("Prateek Jain", "Head Show Management","http://interiit.com/images/contact/prateek.jpg","",""));
         adapter.add(new CardModel("Pushpendra", "Head Show Management","http://interiit.com/images/contact/pushp.jpg","",""));
@@ -40,7 +46,7 @@ public class Contacts extends AppCompatActivity {
         adapter.add(new CardModel("Zishan Zainul", "Head Design","http://interiit.com/images/contact/zishan.jpg","",""));
         adapter.add(new CardModel("Deependra", "Head Design","http://interiit.com/images/contact/deep.jpg","",""));
         adapter.add(new CardModel("Rahul Wadhwani", "Head Marketing","http://interiit.com/images/contact/rahul.jpg","",""));
-        adapter.add(new CardModel("Gunda Abhishek", "Head Web & Android","http://interiit.com/images/contact/a.jpg","",""));
+        adapter.add(new CardModel("Gunda Abhishek", "Head Web & Android","http://interiit.com/images/contact/a.jpg","7755057754","https://www.facebook.com/abhishek.gunda.5"));
         adapter.add(new CardModel("Subham Goyal", "Head Web & Android","http://interiit.com/images/contact/subham.jpg","",""));
         adapter.add(new CardModel("Kshitiz Yadav", "Head Public Relation","http://interiit.com/images/contact/kshitij.jpg","",""));
         adapter.add(new CardModel("Mayang Garg", "Head Hospitality","http://interiit.com/images/contact/mayank.jpg","",""));

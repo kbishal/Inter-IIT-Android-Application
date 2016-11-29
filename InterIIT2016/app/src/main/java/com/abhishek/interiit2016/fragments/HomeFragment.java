@@ -10,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.graphics.Palette;
+import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +21,6 @@ import android.widget.RelativeLayout;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.activities.ResultsActivity;
-import com.abhishek.interiit2016.activities.Sports;
 import com.abhishek.interiit2016.activities.Teams;
 import com.abhishek.interiit2016.utils.APIConstants;
 import com.etiennelawlor.imagegallery.library.activities.FullScreenImageGalleryActivity;
@@ -70,11 +70,9 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
         ImageGalleryActivity.setImageThumbnailLoader(this);
         FullScreenImageGalleryActivity.setFullScreenImageLoader(this);
         paletteColorType = PaletteColorType.VIBRANT;
-        RelativeLayout results= (RelativeLayout) view.findViewById(R.id.results);
-        RelativeLayout fixtures= (RelativeLayout) view.findViewById(R.id.fixtures);
-        final RelativeLayout standings= (RelativeLayout) view.findViewById(R.id.standings);
-        RelativeLayout teams= (RelativeLayout) view.findViewById(R.id.teams);
-        RelativeLayout photos= (RelativeLayout) view.findViewById(R.id.photos);
+        CardView results= (CardView) view.findViewById(R.id.results);
+        CardView fixtures= (CardView) view.findViewById(R.id.fixtures);
+        CardView photos= (CardView) view.findViewById(R.id.photos);
         sharedPreferences = this.getActivity().getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
         gender = sharedPreferences.getString("Gender","Male");
         photos.setOnClickListener(new View.OnClickListener() {
@@ -89,13 +87,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
             }
         });
 
-        teams.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Teams.class);
-                startActivity(intent);
-            }
-        });
+
         results.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -106,30 +98,10 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
         fixtures.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Sports.class);
+                Intent intent = new Intent(getActivity(), ResultsActivity.class);
                 startActivity(intent);
             }
         });
-//        FloatingActionButton floatingActionButton =(FloatingActionButton)view.findViewById(R.id.fab3);
-//        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                new MaterialDialog.Builder(getActivity())
-//                        .title("Select gender")
-//                        .items(R.array.gender)
-//                        .itemsCallbackSingleChoice(2, new MaterialDialog.ListCallbackSingleChoice() {
-//                            @Override
-//                            public boolean onSelection(MaterialDialog dialog, View view, int which, CharSequence text) {
-//                                SharedPreferences.Editor editor = sharedPreferences.edit();
-//                                editor.putString("Gender",text.toString());
-//                                editor.commit();
-//                                return true; // allow selection
-//                            }
-//                        })
-//                        .positiveText("Submit")
-//                        .show();
-//            }
-//        });
         return view;
     }
 

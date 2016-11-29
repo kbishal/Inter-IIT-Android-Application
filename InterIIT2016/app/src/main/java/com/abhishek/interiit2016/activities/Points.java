@@ -2,6 +2,7 @@ package com.abhishek.interiit2016.activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Point;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -133,6 +134,9 @@ public class Points extends AppCompatActivity {
         };
         if (Utils.isInterNetUp(Points.this)){
             dataService.getEvents(gender, callback);
+        }
+        else {
+            Utils.showCustomToast(Points.this, "Please check your internet connection or try again later", Toast.LENGTH_LONG);
         }
     }
 
