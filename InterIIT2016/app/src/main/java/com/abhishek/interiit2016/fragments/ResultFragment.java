@@ -27,8 +27,6 @@ import com.abhishek.interiit2016.utils.DataService;
 import com.abhishek.interiit2016.utils.GsonFactory;
 import com.abhishek.interiit2016.utils.Utils;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.github.amlcurran.showcaseview.ShowcaseView;
-import com.github.amlcurran.showcaseview.targets.ViewTarget;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;

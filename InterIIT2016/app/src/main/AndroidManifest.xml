@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abhishek.interiit2016" >
+    package="com.abhishek.interiit2016">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -11,16 +11,17 @@
 
     <uses-permission android:name="com.abhishek.interiit2016.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:name=".activities.interIIT"
         android:allowBackup="true"
         android:icon="@mipmap/launcher"
         android:label="@string/app_name"
-        android:theme="@style/MyTheme" >
+        android:theme="@style/MyTheme">
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
@@ -30,14 +31,14 @@
 
         <service
             android:name=".gcmservices.GCMPushReceiverService"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
         <service
             android:name=".gcmservices.GCMRegistrationIntentService"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
@@ -50,11 +51,10 @@
             android:theme="@style/ImageGalleryTheme" />
         <activity
             android:name=".activities.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".activities.SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -63,28 +63,22 @@
         </activity>
         <activity
             android:name=".activities.HomeActivity"
-            android:label="@string/title_activity_home" >
-        </activity>
+            android:label="@string/title_activity_home"></activity>
         <activity
             android:name=".activities.Teams"
-            android:label="@string/title_activity_teams" >
-        </activity>
+            android:label="@string/title_activity_teams"></activity>
         <activity
             android:name=".activities.ResultsActivity"
-            android:label="@string/title_activity_results" >
-        </activity>
+            android:label="@string/title_activity_results"></activity>
         <activity
             android:name=".activities.NavDrawerActivity"
-            android:label="@string/title_activity_standings" >
-        </activity>
+            android:label="@string/title_activity_standings"></activity>
         <activity
             android:name=".activities.Points"
-            android:label="@string/title_activity_points" >
-        </activity>
+            android:label="@string/title_activity_points"></activity>
         <activity
             android:name=".activities.Contacts"
-            android:label="@string/title_activity_contacts" >
-        </activity>
+            android:label="@string/title_activity_contacts"></activity>
     </application>
 
 </manifest>

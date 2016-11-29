@@ -13,8 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -22,18 +20,13 @@ import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.SimpleRecyclerAdapter;
-import com.abhishek.interiit2016.adapters.StandingsAdapter;
 import com.abhishek.interiit2016.model.APIResponse;
 import com.abhishek.interiit2016.model.ScheduleDTO;
-import com.abhishek.interiit2016.model.StandingsDTO;
-import com.abhishek.interiit2016.model.VersionModel;
 import com.abhishek.interiit2016.utils.APIConstants;
 import com.abhishek.interiit2016.utils.DataService;
 import com.abhishek.interiit2016.utils.GsonFactory;
 import com.abhishek.interiit2016.utils.Utils;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.github.amlcurran.showcaseview.ShowcaseView;
-import com.github.amlcurran.showcaseview.targets.ViewTarget;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
@@ -83,14 +76,7 @@ public class ScheduleFragment extends Fragment{
         gender = sharedPreferences.getString("Gender","Male");
         getschedule(gender);
         FloatingActionButton floatingActionButton =(FloatingActionButton)view.findViewById(R.id.fab5);
-        new ShowcaseView.Builder(getActivity())
-                .withNewStyleShowcase()
-                .setTarget(new ViewTarget(floatingActionButton))
-                .setContentTitle("title")
-                .setContentText("title")
-                .hideOnTouchOutside()
-                .singleShot(42)
-                .build();
+
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

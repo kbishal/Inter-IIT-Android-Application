@@ -7,6 +7,7 @@ public class APIConstants {
     public static final String API_GET_POINTS_TABLE ="/get_standings.php";
     public static final String API_GET_SCHDULE ="/get_schedule.php";
     public static final String API_GET_RESULTS ="/get_results.php";
+    public static final String API_GET_IMAGES ="/get_images.php";
     public static final String API_LOGIN ="/user/get";
     public static final String API_ATTENDEES_PAGINATION ="/transaction/getallwithpagination";
     public static final String API_NEW_ATTENDEES_PAGINATION ="/transaction/getwithpagination";

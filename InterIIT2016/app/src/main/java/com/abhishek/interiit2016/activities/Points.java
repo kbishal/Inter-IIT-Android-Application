@@ -2,10 +2,9 @@ package com.abhishek.interiit2016.activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.Point;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -23,8 +22,6 @@ import com.abhishek.interiit2016.utils.DataService;
 import com.abhishek.interiit2016.utils.GsonFactory;
 import com.abhishek.interiit2016.utils.Utils;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.github.amlcurran.showcaseview.ShowcaseView;
-import com.github.amlcurran.showcaseview.targets.ViewTarget;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
@@ -71,14 +68,6 @@ public class Points extends AppCompatActivity {
         });
         getpoints(gender);
         FloatingActionButton floatingActionButton =(FloatingActionButton)findViewById(R.id.fab2);
-        new ShowcaseView.Builder(this)
-                .withNewStyleShowcase()
-                .setTarget(new ViewTarget(R.id.fab2, this))
-                .setContentTitle("title")
-                .setContentText("title")
-                .hideOnTouchOutside()
-                .singleShot(42)
-                .build();
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

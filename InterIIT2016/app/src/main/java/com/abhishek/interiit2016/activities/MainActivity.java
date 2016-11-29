@@ -7,16 +7,18 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.adapters.GridListAdapter;
 import com.abhishek.interiit2016.model.ItemObject;
 import com.abhishek.interiit2016.utils.APIConstants;
-import com.github.amlcurran.showcaseview.ShowcaseView;
-import com.github.amlcurran.showcaseview.targets.ViewTarget;
+import com.abhishek.interiit2016.utils.Utils;
+import com.afollestad.materialdialogs.MaterialDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +32,7 @@ import io.smooch.ui.ConversationActivity;
 //import io.smooch.ui.ConversationActivity;
 
 public class MainActivity extends NavDrawerActivity {
+    String username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +40,7 @@ public class MainActivity extends NavDrawerActivity {
         final SharedPreferences sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
         String Sport = sharedPreferences.getString("Sport","");
         String Gender = sharedPreferences.getString("Gender","Male");
+         username = sharedPreferences.getString("username","");
 //        int resultCode= GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplicationContext());
 //
 //        if (ConnectionResult.SUCCESS!=resultCode){
@@ -56,21 +60,37 @@ public class MainActivity extends NavDrawerActivity {
 //            startService(intent);
 
         FloatingActionButton floatingActionButton =(FloatingActionButton)findViewById(R.id.fab);
-        new ShowcaseView.Builder(this)
-                .withNewStyleShowcase()
-                .setTarget(new ViewTarget(R.id.fab, this))
-                .setContentTitle("title")
-                .setContentText("title")
-                .hideOnTouchOutside()
-                .singleShot(42)
-                .build();
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                User.getCurrentUser().setFirstName("student");
-                User.getCurrentUser().setLastName("interIIT");
-                User.getCurrentUser().setEmail("abhigun@iitk.ac.in");
-                ConversationActivity.show(MainActivity.this);
+                if (username.equals("")){
+                    new MaterialDialog.Builder(MainActivity.this)
+                            .title("Please provide your Username")
+                            .content("Maximum of 8 characters is allowed")
+                            .inputType(InputType.TYPE_CLASS_TEXT)
+                            .input("username", "", new MaterialDialog.InputCallback() {
+                                @Override
+                                public void onInput(MaterialDialog dialog, CharSequence input) {
+                                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                                    editor.putString("username",input.toString());
+                                    editor.commit();
+                                    Utils.showCustomToast(MainActivity.this,"Submitted Successfully", Toast.LENGTH_SHORT);
+                                    User.getCurrentUser().setFirstName(input.toString());
+                                    User.getCurrentUser().setLastName("");
+                                    //User.getCurrentUser().setEmail("abhigun@iitk.ac.in");
+                                    ConversationActivity.show(MainActivity.this);
+                                    // Do something
+                                }
+                            }).show();
+                }
+                else {
+                    User.getCurrentUser().setFirstName(username);
+                    User.getCurrentUser().setLastName("");
+                    //User.getCurrentUser().setEmail("abhigun@iitk.ac.in");
+                    ConversationActivity.show(MainActivity.this);
+                }
+
+
             }
         });
 

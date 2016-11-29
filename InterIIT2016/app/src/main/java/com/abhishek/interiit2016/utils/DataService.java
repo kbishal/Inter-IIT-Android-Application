@@ -4,8 +4,6 @@ import com.abhishek.interiit2016.model.APIResponse;
 
 import retrofit.Callback;
 import retrofit.http.GET;
-import retrofit.http.Headers;
-import retrofit.http.POST;
 import retrofit.http.Query;
 
 /**
@@ -23,6 +21,14 @@ public interface DataService {
     @GET(APIConstants.API_GET_RESULTS)
     public void getresults(
             @Query("sport") String sport,@Query("gender") String gender,@Query("day") String day, Callback<APIResponse> cb
+    );
+    @GET(APIConstants.API_GET_IMAGES)
+    public void getimages(
+            @Query("sport") String sport,@Query("gender")  String gender, Callback<APIResponse> cb
+    );
+    @GET(APIConstants.API_GET_IMAGES)
+    public void getgalleryimages(
+            @Query("sport") String sport, Callback<APIResponse> cb
     );
     /*@GET(APIConstants.API_ANALYTICS_DATA)
     public void getStatisticsOfEvent(
