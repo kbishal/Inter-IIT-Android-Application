@@ -1,17 +1,16 @@
 package com.abhishek.interiit2016.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.model.ItemObject;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -37,7 +36,9 @@ public class GridListAdapter extends RecyclerView.Adapter<GridListAdapter.Versio
     @Override
     public void onBindViewHolder(VersionViewHolder holder, int position) {
         holder.EventName.setText(itemList.get(position).getName());
-        holder.EventPhoto.setImageResource(itemList.get(position).getPhoto());
+        Picasso.with(holder.EventPhoto.getContext()).load(itemList.get(position).getPhoto()).into(holder.EventPhoto);
+
+        //holder.EventPhoto.setImageResource(itemList.get(position).getPhoto());
     }
 
     @Override

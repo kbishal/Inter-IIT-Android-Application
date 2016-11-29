@@ -24,12 +24,12 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_results.xml"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sports.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_sports.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/menu/menu_main.xml",

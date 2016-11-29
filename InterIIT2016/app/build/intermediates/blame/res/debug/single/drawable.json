@@ -60,6 +60,10 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.1.0\\res\\drawable\\md_btn_selected_dark.xml"
     },
     {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/weight.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/weight.png"
+    },
+    {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_radio_material.xml"
     },
@@ -160,16 +164,16 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/five.jpg",
         "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/five.jpg"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -204,12 +208,20 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/hockey.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/hockey.png"
+    },
+    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\drawable\\background.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\iitk.jpg",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\drawable\\iitk.jpg"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/baddy1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/baddy1.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\four.jpg",
@@ -280,6 +292,10 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/tt1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/tt1.png"
+    },
+    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\india.jpg",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\drawable\\india.jpg"
     },
@@ -302,6 +318,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/volley1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/volley1.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -478,6 +498,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/cricket1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/cricket1.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
@@ -688,6 +712,10 @@
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/basketball1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/basketball1.png"
+    },
+    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\drawable\\design_snackbar_background.xml"
     },
@@ -764,6 +792,10 @@
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/tennis1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/tennis1.png"
+    },
+    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call.png",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\src\\main\\res\\drawable\\call.png"
     },
@@ -802,6 +834,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/squash1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/squash1.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smooch_btn_send.xml",
@@ -922,6 +958,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector_dark.xml",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.1.0\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable/football1.png",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/drawable/football1.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",

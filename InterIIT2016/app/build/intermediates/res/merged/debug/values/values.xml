@@ -413,8 +413,8 @@
     <color name="pink_A400">#f50057</color>
     <color name="pink_A700">#c51162</color>
     <color name="primary">@color/grey_500</color>
-    <color name="primary_500">#009688</color>
-    <color name="primary_700">#00796b</color>
+    <color name="primary_500">#11475B</color>
+    <color name="primary_700">#0E3B4B</color>
     <color name="primary_dark">@android:color/black</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>

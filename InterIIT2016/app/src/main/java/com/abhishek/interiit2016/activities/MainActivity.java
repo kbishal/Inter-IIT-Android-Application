@@ -143,16 +143,16 @@ public class MainActivity extends NavDrawerActivity {
 
         List<ItemObject> allItems = new ArrayList<>();
 
-        allItems.add(new ItemObject("Badminton", R.drawable.five));
-        allItems.add(new ItemObject("Basketball", R.drawable.four));
-        allItems.add(new ItemObject("Cricket", R.drawable.four));
-        allItems.add(new ItemObject("Football", R.drawable.five));
-        allItems.add(new ItemObject("Hockey", R.drawable.four));
-        allItems.add(new ItemObject("Squash", R.drawable.five));
-        allItems.add(new ItemObject("Table Tennis", R.drawable.eight));
-        allItems.add(new ItemObject("Tennis", R.drawable.four));
-        allItems.add(new ItemObject("Volleyball", R.drawable.eight));
-        allItems.add(new ItemObject("Weightlifting", R.drawable.eight));
+        allItems.add(new ItemObject("Badminton", R.drawable.baddy1));
+        allItems.add(new ItemObject("Basketball", R.drawable.basketball1));
+        allItems.add(new ItemObject("Cricket", R.drawable.cricket1));
+        allItems.add(new ItemObject("Football", R.drawable.football1));
+        allItems.add(new ItemObject("Hockey", R.drawable.hockey));
+        allItems.add(new ItemObject("Squash", R.drawable.squash1));
+        allItems.add(new ItemObject("Table Tennis", R.drawable.tt1));
+        allItems.add(new ItemObject("Tennis", R.drawable.tennis1));
+        allItems.add(new ItemObject("Volleyball", R.drawable.volley1));
+        allItems.add(new ItemObject("Weightlifting", R.drawable.weight));
        /* allItems.add(new ItemObject("Germany", R.drawable.four));
         allItems.add(new ItemObject("Sweden", R.drawable.five));
         allItems.add(new ItemObject("United Kingdom", R.drawable.four));

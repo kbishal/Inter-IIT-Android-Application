@@ -8,7 +8,9 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.CardView;
 import android.text.TextUtils;
@@ -27,6 +29,7 @@ import com.abhishek.interiit2016.utils.APIConstants;
 import com.abhishek.interiit2016.utils.DataService;
 import com.abhishek.interiit2016.utils.GsonFactory;
 import com.abhishek.interiit2016.utils.Utils;
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.etiennelawlor.imagegallery.library.activities.FullScreenImageGalleryActivity;
 import com.etiennelawlor.imagegallery.library.activities.ImageGalleryActivity;
 import com.etiennelawlor.imagegallery.library.adapters.FullScreenImageGalleryAdapter;
@@ -114,6 +117,28 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
                 startActivity(intent);
             }
         });
+        FloatingActionButton floatingActionButton =(FloatingActionButton)view.findViewById(R.id.fab5);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new MaterialDialog.Builder(getActivity())
+                        .title("Select gender")
+                        .items(R.array.gender)
+                        .itemsCallbackSingleChoice(2, new MaterialDialog.ListCallbackSingleChoice() {
+                            @Override
+                            public boolean onSelection(MaterialDialog dialog, View view, int which, CharSequence text) {
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putString("Gender", text.toString());
+                                editor.commit();
+                                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(sharedPreferences.getString("Sport","")+" - "+text.toString());
+
+                                return true; // allow selection
+                            }
+                        })
+                        .positiveText("Submit")
+                        .show();
+            }
+        });
         return view;
     }
 
@@ -173,7 +198,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
     public void loadFullScreenImage(final ImageView iv, String imageUrl, int width, final LinearLayout bgLinearLayout) {
         if (!TextUtils.isEmpty(imageUrl)) {
             Picasso.with(iv.getContext())
-                    .load("http://interiit.com/images/"+imageUrl)
+                    .load("http://interiit.com/images/"+Sport+"/"+imageUrl)
                     .resize(width, 0)
                     .into(iv, new Callback() {
                         @Override
@@ -200,7 +225,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
     public void loadImageThumbnail(ImageView iv, String imageUrl, int dimension) {
         if (!TextUtils.isEmpty(imageUrl)) {
             Picasso.with(iv.getContext())
-                    .load("http://interiit.com/images/"+imageUrl)
+                    .load("http://interiit.com/images/"+Sport+"/"+imageUrl)
                     .resize(dimension, dimension)
                     .centerCrop()
                     .into(iv);
