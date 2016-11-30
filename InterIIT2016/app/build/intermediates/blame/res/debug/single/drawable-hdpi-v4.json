@@ -76,24 +76,24 @@
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/io.smooch/ui/3.2.2/res/drawable-hdpi-v4/amex.png"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_blank_circle.png",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\drawable-hdpi\\checkbox_blank_circle.png"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\amex.png",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\io.smooch\\ui\\3.2.2\\res\\drawable-hdpi-v4\\amex.png"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_blank_circle.png",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\src\\main\\res\\drawable-hdpi\\checkbox_blank_circle.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\smooch_ic_notification.png",
         "source": "/home/siddharth/inter/InterIIT2016/D:\\home\\siddharth\\inter\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\io.smooch\\ui\\3.2.2\\res\\drawable-hdpi-v4\\smooch_ic_notification.png"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/home/siddharth/inter/InterIIT2016/D:\\Inter-IIT-Android-Application\\InterIIT2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",

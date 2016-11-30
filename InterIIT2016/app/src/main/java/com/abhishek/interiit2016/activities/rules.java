@@ -4,27 +4,42 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.utils.APIConstants;
 
+
 public class rules extends AppCompatActivity {
 
     private SharedPreferences sharedPreferences;
     private String sport;
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rules);
         sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
         sport = sharedPreferences.getString("Sport", "");
-        TextView textView2 = (TextView) findViewById(R.id.heading);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(sport+" Rules");
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+
+            }
+        });
+       // TextView textView2 = (TextView) findViewById(R.id.heading);
         TextView textView = (TextView) findViewById(R.id.rules);
 
-        textView2.setText(sport+" Rules");
+        //textView2.setText(sport+" Rules");
         switch (sport) {
             case "Badminton":
                 textView.setText(APIConstants.Badminton);

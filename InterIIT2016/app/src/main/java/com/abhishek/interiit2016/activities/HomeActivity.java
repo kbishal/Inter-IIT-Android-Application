@@ -21,14 +21,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeActivity extends NavDrawerActivity {
-
+    private SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.activity_home, mContentFrame);
         final ViewPager viewPager = (ViewPager) findViewById(R.id.tabanim_viewpager);
         setupViewPager(viewPager);
-        SharedPreferences sharedPreferences = sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
+         sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
         getSupportActionBar().setTitle(sharedPreferences.getString("Sport","")+" - "+sharedPreferences.getString("Gender","Men"));
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabanim_tabs);
@@ -109,6 +109,7 @@ public class HomeActivity extends NavDrawerActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
             return true;
         }
 
