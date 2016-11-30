@@ -54,7 +54,7 @@ public class Points extends AppCompatActivity {
         adapter = new StandingsAdapter(this,standingsDTOList);
         recyclerView.setAdapter(adapter);
         sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
-        gender = sharedPreferences.getString("Gender","Male");
+        gender = sharedPreferences.getString("Gender","Men");
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //getSupportActionBar().setTitle(sharedPreferences.getString("Sport", "") + " - " + gender);

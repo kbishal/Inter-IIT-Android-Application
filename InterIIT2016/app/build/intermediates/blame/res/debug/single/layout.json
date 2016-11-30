@@ -244,10 +244,6 @@
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
-        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/layout/activity_splash_screen.xml"
-    },
-    {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_mode_bar.xml"
     },
@@ -426,6 +422,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/layout/activity_splash.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/md_dialog_input.xml",
@@ -638,6 +638,10 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/md_stub_actionbuttons.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.1.0/res/layout/md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/activity_rules.xml",
+        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/layout/activity_rules.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/showcase_button.xml",
@@ -1022,10 +1026,6 @@
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/activity_points.xml",
         "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/layout/activity_points.xml"
-    },
-    {
-        "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/item_splash_screen_swipe_layout.xml",
-        "source": "/home/siddharth/inter/InterIIT2016/app/src/main/res/layout/item_splash_screen_swipe_layout.xml"
     },
     {
         "merged": "/home/siddharth/inter/InterIIT2016/app/build/intermediates/res/merged/debug/layout/standings_list_item.xml",

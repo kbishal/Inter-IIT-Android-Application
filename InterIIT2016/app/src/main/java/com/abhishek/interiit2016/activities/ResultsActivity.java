@@ -54,7 +54,7 @@ public class ResultsActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         simpleRecyclerAdapter =new SimpleRecyclerAdapter(ResultsActivity.this,resultsList);
         recyclerView.setAdapter(simpleRecyclerAdapter);
-        gender = sharedPreferences.getString("Gender","Male");
+        gender = sharedPreferences.getString("Gender","Men");
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(sharedPreferences.getString("Sport","")+" - "+gender);
@@ -107,15 +107,21 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void success(Object o, Response response) {
                 APIResponse schedule = (APIResponse)o;
-                try {
-                    JSONArray jsonArray =new JSONArray(schedule.getData());
-                    Type type = new TypeToken<List<ScheduleDTO>>(){}.getType();
-                    resultsList = GsonFactory.getISOFormatInstance().fromJson(jsonArray.toString(), type);
-                    simpleRecyclerAdapter = new SimpleRecyclerAdapter(ResultsActivity.this,resultsList);
-                    recyclerView.setAdapter(simpleRecyclerAdapter);
+                if (schedule.getResult().equals("failure")){
+                    Utils.showCustomToast(ResultsActivity.this,"Results yet to be uploaded.. Come later", Toast.LENGTH_LONG);
+                }
+                else {
+                    try {
+                        JSONArray jsonArray = new JSONArray(schedule.getData());
+                        Type type = new TypeToken<List<ScheduleDTO>>() {
+                        }.getType();
+                        resultsList = GsonFactory.getISOFormatInstance().fromJson(jsonArray.toString(), type);
+                        simpleRecyclerAdapter = new SimpleRecyclerAdapter(ResultsActivity.this, resultsList);
+                        recyclerView.setAdapter(simpleRecyclerAdapter);
 
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
 

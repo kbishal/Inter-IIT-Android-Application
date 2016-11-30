@@ -23,6 +23,7 @@ import android.widget.Toast;
 
 import com.abhishek.interiit2016.R;
 import com.abhishek.interiit2016.activities.ResultsActivity;
+import com.abhishek.interiit2016.activities.rules;
 import com.abhishek.interiit2016.model.APIResponse;
 import com.abhishek.interiit2016.model.ImageDTO;
 import com.abhishek.interiit2016.utils.APIConstants;
@@ -92,7 +93,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
         CardView fixtures= (CardView) view.findViewById(R.id.fixtures);
         CardView photos= (CardView) view.findViewById(R.id.photos);
         sharedPreferences = this.getActivity().getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
-        gender = sharedPreferences.getString("Gender","Male");
+        gender = sharedPreferences.getString("Gender","Men");
         Sport = sharedPreferences.getString("Sport","");
         photos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,7 +114,7 @@ public class HomeFragment extends Fragment implements ImageGalleryAdapter.ImageT
         fixtures.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), ResultsActivity.class);
+                Intent intent = new Intent(getActivity(), rules.class);
                 startActivity(intent);
             }
         });

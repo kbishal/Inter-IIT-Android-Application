@@ -79,7 +79,7 @@ public class ResultFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         adapter = new SimpleRecyclerAdapter(scheduleDTOList);
         recyclerView.setAdapter(adapter);
-        gender = sharedPreferences.getString("Gender","Male");
+        gender = sharedPreferences.getString("Gender","Men");
         getschedule(gender);
         FloatingActionButton floatingActionButton =(FloatingActionButton)view.findViewById(R.id.fab5);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {

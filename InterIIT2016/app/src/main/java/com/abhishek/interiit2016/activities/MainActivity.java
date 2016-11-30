@@ -39,7 +39,7 @@ public class MainActivity extends NavDrawerActivity {
         getLayoutInflater().inflate(R.layout.activity_main, mContentFrame);
         final SharedPreferences sharedPreferences = getSharedPreferences(APIConstants.USER_SPORT_SELECTED, Context.MODE_PRIVATE);
         String Sport = sharedPreferences.getString("Sport","");
-        String Gender = sharedPreferences.getString("Gender","Male");
+        String Gender = sharedPreferences.getString("Gender","Men");
          username = sharedPreferences.getString("username","");
 //        int resultCode= GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplicationContext());
 //
